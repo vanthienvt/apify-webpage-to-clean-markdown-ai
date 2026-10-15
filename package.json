@@ -1,0 +1,13 @@
+{
+  "name": "apify-webpage-to-clean-markdown-ai",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Converts public web pages and documentation into clean Markdown text, estimates LLM token counts, and splits content into RAG-ready chunks for AI agents.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "dependencies": {
+    "apify": "^3.2.0"
+  }
+}

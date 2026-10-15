@@ -1,0 +1,12 @@
+{
+  "actorSpecification": 1,
+  "name": "webpage-to-clean-markdown-ai",
+  "title": "Webpage to Clean Markdown & RAG Chunks Extractor for LLMs",
+  "description": "Converts public web pages and documentation into clean Markdown text, estimates LLM token counts, and splits content into RAG-ready chunks for AI agents.",
+  "version": "1.0",
+  "meta": {
+    "templateId": "js-start"
+  },
+  "input": "./input_schema.json",
+  "dockerfile": "../Dockerfile"
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Webpage to Clean Markdown & RAG Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "urls": {
+      "title": "Target Web URLs",
+      "type": "array",
+      "description": "Public web pages or articles to convert into clean Markdown and RAG chunks.",
+      "editor": "stringList",
+      "prefill": [
+        "https://example.com"
+      ]
+    },
+    "chunkSizeChars": {
+      "title": "RAG Chunk Size (Characters)",
+      "type": "integer",
+      "description": "Maximum character length per RAG text chunk.",
+      "default": 1000
+    }
+  },
+  "required": [
+    "urls"
+  ]
+}
